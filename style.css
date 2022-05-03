@@ -61,7 +61,7 @@
 	}
  	article p
 	{
-	background-color:  darkturquoise;
+	background-color:  #6eaac8;
 	border: 5px gray ;
 	width: 900px;
 	margin: auto;
@@ -90,7 +90,7 @@
 	article h2
 	{ 
 	text-decoration: underline;
-	background-color: darkturquoise;
+	background-color: #6eaac8;
 	width: 400px;
 	border: 5px gray ;
 	margin-bottom: 100px;
@@ -216,7 +216,7 @@
 	}
 	h2
 	{
-	background-color: #5eb0dc;
+	background-color: #7adbe4;
 	margin: auto;
 	width: 900px;
 	font-size: 2em;
