@@ -1,0 +1,313 @@
+@media all and (min-width: 1024px) and (max-width:2000px)
+{
+	body
+	{
+	background: url('wood.jpg');
+	}
+	nav ul
+	{
+
+	justify-content: right;
+	display: flex;
+ 	list-style-type: none;
+	}
+	nav li
+	{
+
+ 	margin-right: 50px;
+ 	border: 5px gray ;
+	border-radius: 15px;
+	}
+	nav a
+	{
+	font-family: 'alex_brushregular', Arial;
+	font-size: 2.5em;
+	color: black;
+	padding-top: 2px;
+	text-decoration: none;
+
+	}
+	header
+	{
+	color: black;
+	text-decoration: underline;
+	background-color: #7adbe4;
+	border: 5px gray ;
+	border-radius: 15px;
+	align-items: end;
+	}
+	#titre_principal
+	{
+	display: flex;
+	flex-direction: column;
+	}	
+	header h2 
+	{
+	font-weight: normal;
+	font-size: 3em;
+	}
+	header h1 
+	{
+	font-weight: normal;
+	font-size: 4em;
+	}
+	p
+	{
+	font-family: Arial;
+	text-align: justify;
+	width: 900px;
+	margin: auto;
+	font-size: 3em;
+	}
+ 	article p
+	{
+	background-color:  darkturquoise;
+	border: 5px gray ;
+	width: 900px;
+	margin: auto;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	border-radius: 15px;
+    padding: 40px;
+	}
+	h2
+	{
+	margin: auto;
+	width: 900px;
+	font-size: 2em;
+	}
+	#banniere
+	{
+	text-align: center;
+	}
+
+	h1 
+	{
+	text-align: left;
+	display: inline-block;
+	margin: auto;
+	}
+	article h2
+	{ 
+	text-decoration: underline;
+	background-color: darkturquoise;
+	width: 400px;
+	border: 5px gray ;
+	margin-bottom: 100px;
+	border-radius: 20px;
+	font-size: 1.5em;
+	position: center;
+	}
+	section 
+	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1.2em;
+	}
+
+	footer
+	{ 
+	background-color: #7adbe4;
+	border: 5px gray ;
+	border-radius: 15px;
+	} 
+	footer li 
+	{
+    list-style-type: none;
+	}
+	footer h3	
+	{
+	text-decoration: underline;
+	font-size: 1.5em;
+	}
+	footer li
+	{
+	font-size: 1.5em;
+	display: flex;
+	}
+	@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: 'amitabold';
+    src: url('amita-bold-webfont.woff2') format('woff2'),
+         url('amita-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+	}
+	h1
+	{
+	font-family: 'alex_brushregular', Arial;
+	}
+
+	h2
+	{
+		font-family: 'amitabold', Arial;
+	}
+	#logo
+	{
+ 	text-align: left;
+ 	}
+}
+@media screen and (max-width:1024px)
+{
+	body
+	{
+	background: url('wood.jpg') no-repeat;
+	}
+	nav ul
+	{
+
+	justify-content: right;
+	display: flex;
+ 	list-style-type: none;
+	}
+	nav li
+	{
+	background-color: #7adbe4;
+ 	margin-right: 50px;
+ 	border: 5px gray ;
+	border-radius: 15px;
+	}
+	nav a
+	{
+	font-family: 'alex_brushregular', Arial;
+	font-size: 2.5em;
+	color: black;
+	padding-top: 2px;
+	text-decoration: none;
+
+	}
+	header
+	{
+	text-decoration: underline;
+	background-color: #7adbe4;
+	border: 5px gray ;
+	border-radius: 15px;
+	align-items: end;
+	}
+	#titre_principal
+	{
+	display: flex;
+	flex-direction: column;
+	}	
+	header h2 
+	{
+	font-weight: normal;
+	font-size: 3em;
+	}
+	header h1 
+	{
+	font-weight: normal;
+	font-size: 4em;
+	}
+	p
+	{
+	font-family: Arial;
+	text-align: justify;
+	width: 900px;
+	margin: auto;
+	font-size: 3em;
+	}
+	h2
+	{
+	background-color: #5eb0dc;
+	margin: auto;
+	width: 900px;
+	font-size: 2em;
+	}
+	h1 
+	{
+	text-align: left;
+	display: inline-block;
+	margin: auto;
+	}
+	article h2
+	{ 
+	text-decoration: underline;
+	background-color: #6eaac8;
+	width: 300px;
+	border: 5px gray ;
+	margin-bottom: 50px;
+	border-radius: 15px;
+	font-size: 1.5em;
+	position: center;
+	}
+	section 
+	{
+	display: flex;
+	margin-bottom: 1.2em;
+	}
+
+	footer
+	{ 
+	background-color: #7adbe4;
+	border: 5px gray ;
+	border-radius: 15px;
+	} 
+	footer li 
+	{
+    list-style-type: none;
+	}
+	footer h3	
+	{
+	text-decoration: underline;
+	font-size: 1.5em;
+	}
+	footer li
+	{
+	font-size: 1.5em;
+	display: flex;
+	}
+	@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+	}
+	@font-face {
+    font-family: 'amitabold';
+    src: url('amita-bold-webfont.woff2') format('woff2'),
+         url('amita-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+	}
+	h1
+	{
+	font-family: 'alex_brushregular', Arial;
+	}
+
+	h2
+	{
+		font-family: 'amitabold', Arial;
+	}
+	#logo
+	{
+ 	text-align: left;
+ 	}
+ 	#banniere
+ 	{
+ 		display: none;
+ 	}
+
+ 	article p
+	{
+	background-color:  #6eaac8;
+	border: 5px gray ;
+	width: 900px;
+	margin: auto;
+	font-size: 1.5em;
+	margin-bottom: 30px;
+	border-radius: 15px;
+    padding: 40px;
+	}
+}
+
